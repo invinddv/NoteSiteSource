@@ -5,10 +5,10 @@ title = "Plan at 2019.6"
 +++
 搭建本站的目的在于督促自己学习，区别于原Blog站点，本站主要以简洁明了的方式进行学习记录，一切内容围绕学习和心得，发布内容将包含：
 
-1. 即时的学习进度
-2. 采用的学习手段
-3. 学习笔记、记录和理解
-4. 总结、思考与个人见解
+1. 即时的学习进度  
+2. 采用的学习手段  
+3. 学习笔记、记录和理解  
+4. 总结、思考与个人见解  
 
 写作的规则如下： 
 - **每周至少更新一篇文章** 
@@ -20,7 +20,7 @@ title = "Plan at 2019.6"
 2. 标日初级上 
 3. Silicon Photonics入门，主要有三本参考书籍：  
 - ***Silicon Photonics- an Introduction**, Graham T. Reed*  
-- ***Silicon Photonics- The State of Art**, Graham T. Reed*  
+- ***Silicon Photonics- The State of Art**, Graham T. Reed*   
 - ***Silicon Photonics Design**, Lukas Chrostowski*  
 
 项目1将会在月初完成。2是源自我个人的兴趣，3是出于老板的建议，但都不是迫切的学习需求，没有设立苛刻的进度计划，可以根据情况随时调整。
