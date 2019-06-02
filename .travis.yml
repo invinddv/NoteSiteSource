@@ -15,22 +15,6 @@ install:
 script:
   # 运行hugo命令
   - hugo
-after_script:
-  # 部署
-  - cd ./public
-  - git init
-  - git config user.name "invinddv"
-  - git config user.email "invinddv@qq.com"
-  - git add .
-  - git commit -m "Update Blog By TravisCI With Build $TRAVIS_BUILD_NUMBER"
-  # Github Pages
-  - git push --force --quiet "https://$GITHUB_TOKEN@${GH_REF}" master:master
-  # Github Pages
-  - git push --quiet "https://$GITHUB_TOKEN@${GH_REF}" master:master --tags
-env:
- global:
-   # Github Pages
-   - GH_REF: github.com/invinddv/notesitewd.github.io.git
 deploy:
   fqdn: $CUSTOM_DOMAIN
   provider: pages # 重要，指定这是一份github pages的部署配置
@@ -41,3 +25,19 @@ deploy:
   keep-history: true # 是否保持target-branch分支的提交记录
   on:
     branch: master # 博客源码的分支
+after_script:
+  # 部署
+  - cd ./public
+  - git init
+  - git config user.name "invinddv"
+  - git config user.email "invinddv@qq.com"
+  - git add 
+  - git commit -m "Update Blog By TravisCI With Build $TRAVIS_BUILD_NUMBER"
+  # Github Pages
+  - git push --force --quiet "https://$GITHUB_TOKEN@${GH_REF}" master:master
+  # Github Pages
+  - git push --quiet "https://$GITHUB_TOKEN@${GH_REF}" master:master --tags
+env:
+ global:
+   # Github Pages
+   - GH_REF: github.com/invinddv/notesitewd.github.io.git
