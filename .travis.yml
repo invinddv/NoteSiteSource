@@ -32,7 +32,7 @@ env:
    # Github Pages
    - GH_REF: github.com/invinddv/notesitewd.github.io.git
 deploy:
-  fqdn: notes.skyletter.cn
+  fqdn: skyletter.cn
   provider: pages # 重要，指定这是一份github pages的部署配置
   skip-cleanup: true # 重要，不能省略
   local-dir: public # 静态站点文件所在目录
