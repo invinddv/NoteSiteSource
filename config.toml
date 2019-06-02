@@ -1,0 +1,22 @@
+title = "SkyNote Site"
+theme = "solar"
+paginate = 5
+pygmentsStyle = "solarized-dark" # solarized-light, -dark or -dark256
+
+[params]
+  scheme = "dark" # light, dark or gray
+  description = "A record for my leaning process."
+
+[menu]
+  [[menu.main]]
+    name = "HomePage"
+    url = "https://blog.skyletter.cn"
+  [[menu.main]]
+    name = "Blog"
+    url = "http://www.skyletter.cn"
+  [[menu.other]]
+    name = "Weibo"
+    url = "https://weibo.com/121929561"
+  [[menu.other]]
+    name = "Twitter"
+    url = "https://twitter.com/Exp_lo_sion"
