@@ -1,7 +1,6 @@
 # Site settings
-theme = "story"
-baseurl = "http://notes.skyletter.cn"
-title = "Sky Note Site"
+baseurl = "https://example.com/"
+title = "Hugo Story Theme"
 paginate = 5
 buildFuture = true
 
@@ -26,8 +25,9 @@ buildFuture = true
   url = "/archives/"
 
 [params]
-  author = "Skyletter"
-  twitter = "Exp_lo_sion"
+  author = "Baron Schwartz"
+  twitter = "xaprb"
+  classes = []
 
 [outputs]
   home = ["HTML", "JSON", "RSS"]
