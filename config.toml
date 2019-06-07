@@ -6,19 +6,9 @@ paginate = 5
 buildFuture = true
 
 [[menu.social]]
-  name = "GitHub"
-  title = "fab fa-github-square"
-  url = "https://github.com/xaprb/story/"
-
-[[menu.main]]
-  name = "Talks"
-  title = "Talks"
-  url = "/talks/"
-
-[[menu.main]]
-  name = "Slides"
-  title = "Slides"
-  url = "/slides/"
+ name = "Twitter"
+ title = "fab fa-twitter"
+ url = "https://twitter.com/Exp_lo_sion"
 
 [[menu.main]]
   name = "Archives"
